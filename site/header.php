@@ -12,14 +12,14 @@
 
 <body>
     <section class="header_nav">
-        <!-- hier begint het bovenste deel van de navbar -->
+        <!-- begin header -->
         <header class="container">
             <section class="container_width">
                 <div class="nav_top">
                     <img src="img/webwinkel.png" alt="">
 
                     <a href="">De auto webwinkel</a>
-                    <!-- vanaf hier wordt er een box voor de rechterkant van de navbar gemaakt -->
+                    <!-- begin box voor de rechterkant van de header -->
                     <div class="right">
                         <p>&copy;2023.SchoolProject</p>
                         <div class="search_box">
@@ -29,39 +29,17 @@
                         <a href=""><i class="fa fa-home"></i></a>
                         <a href=""><i class="fa fa-user"></i></a>
                     </div>
-                    <!-- hier eindigd de box voor de rechterkant van de navbar -->
+                    <!-- einde box voor de rechterkant van de header -->
                 </div>
             </section>
         </header>
-        <!-- hier eindigd het bovenste gedeelte van de navbar -->
-        <!-- hier begint het onderste deel van de navbar -->
-        <section class="container">
-            <div class="container_width">
-                <div>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href=""><i class="fa fa-car"></i> Onze modellen</a>
-                            </li>
-                            <li>
-                                <a href="">Zoeken & kopen</a>
-                            </li>
-                            <li>
-                                <a href="">Aankoopadvies</a>
-                            </li>
-                            <li>
-                                <a href="">Mercedes onderdelen</a>
-                            </li>
-                            <li>
-                                <a href="">Technologie & nieuws</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </section>
+
+        <?php
+            include ('nav.php');
+        ?>
+        
     </section>
-    <!-- hier eindigd het onderste gedeelte van de navbar -->
+    <!-- einde header -->
 </body>
 
 </html>

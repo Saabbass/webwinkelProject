@@ -10,31 +10,9 @@
     <title>Webwinkel</title>
 </head>
 
-<body class="home">
+<body>
     <section class="header_nav">
-        <!-- hier begint het bovenste deel van de navbar -->
-        <header class="container">
-            <section class="container_width">
-                <div class="nav_top">
-                    <img src="img/Schermafbeelding 2023-02-04 144858.png" alt="">
-
-                    <a href="">Webwinkel</a>
-                    <!-- vanaf hier wordt er een box voor de rechterkant van de navbar gemaakt -->
-                    <div class="right">
-                        <p>&copy;2023.</p>
-                        <div class="search_box">
-                            <input type="text">
-                            <span class="fa fa-search"></span>
-                        </div>
-                        <a href=""><i class="fa fa-star"></i></a>
-                        <a href=""><i class="fa fa-user"></i></a>
-                    </div>
-                    <!-- hier eindigd de box voor de rechterkant van de navbar -->
-                </div>
-            </section>
-        </header>
-        <!-- hier eindigd het bovenste gedeelte van de navbar -->
-        <!-- hier begint het onderste deel van de navbar -->
+        <!-- begin navbar -->
         <section class="container">
             <div class="container_width">
                 <div>
@@ -61,7 +39,7 @@
             </div>
         </section>
     </section>
-    <!-- hier eindigd het onderste gedeelte van de navbar -->
+    <!-- einde navbar -->
 </body>
 
 </html>

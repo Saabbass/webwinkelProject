@@ -12,7 +12,6 @@
 <body>
     <section>
         <footer>
-
         </footer>
     </section>
 </body>

@@ -37,9 +37,9 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                     <div class="container_width">
                         <div class="box">
                             <div class="txt_box">
-                                <h1>Magical Garage.</h1>
+                                <h1>Uw auto dealer</h1>
 
-                                <p>Een plek waar de toekomst van mobiliteit zich thuis voelt.</p>
+                                <p>Zoek een dealer bij u in de buurt.</p>
 
                                 <a href="">Meer weten</a>
                             </div>
