@@ -95,7 +95,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 </div>
                 <script src="js/script.js"></script>
             </section>
-
+            <!-- einde main part 2 -->
             <!-- begin main part 3 -->
             <section>
                 <div class="container">
@@ -182,11 +182,11 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     </section>
     <!-- einde main -->
 
-    <!-- hier begint de footer -->
+    <!-- begin footer -->
     <?php
     include('footer.php');
     ?>
-    <!-- hier eindigd de footer -->
+    <!-- einde footer -->
 </body>
 
 </html>
