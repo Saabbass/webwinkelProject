@@ -1,18 +1,11 @@
 <?php
-session_start();
+// require database.php wordt gebruikt voor de database connectie
 require 'database.php';
 
+// sql-qeury voor het ophalen van alle producten uit de database
 $sql = "SELECT * FROM producten";
-
 $result = mysqli_query($conn, $sql);
-
 $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-$sql2 = "SELECT img FROM producten";
-
-$image = mysqli_query($conn, $sql);
-
-
 
 ?>
 
@@ -35,10 +28,10 @@ $image = mysqli_query($conn, $sql);
     ?>
     <!-- hier eindigd het onderste gedeelte van de navbar / header -->
 
-    <!-- hier begint het main gedeelte van de pagina -->
+    <!-- begin main -->
     <section class="home_main">
         <main>
-            <!-- main part 1 -->
+            <!-- begin main part 1 -->
             <section class="container_img">
                 <div class="container">
                     <div class="container_width">
@@ -54,8 +47,8 @@ $image = mysqli_query($conn, $sql);
                     </div>
                 </div>
             </section>
-
-            <!-- main part 2 -->
+            <!-- einde main part 1 -->
+            <!-- begin main part 2 -->
             <section>
                 <div class="container">
                     <div class="container_width">
@@ -103,7 +96,7 @@ $image = mysqli_query($conn, $sql);
                 <script src="js/script.js"></script>
             </section>
 
-            <!-- main part 3 -->
+            <!-- begin main part 3 -->
             <section>
                 <div class="container">
                     <div class="container_width">
@@ -187,14 +180,12 @@ $image = mysqli_query($conn, $sql);
             </section>
         </main>
     </section>
-    <!-- hier eindigd het main gedeelte van de pagina -->
+    <!-- einde main -->
 
     <!-- hier begint de footer -->
-
     <?php
     include('footer.php');
     ?>
-
     <!-- hier eindigd de footer -->
 </body>
 
