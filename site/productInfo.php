@@ -22,8 +22,6 @@ if (mysqli_num_rows($result) <= 0) {
 
 $product = mysqli_fetch_assoc($result);
 
-
-
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +42,6 @@ $product = mysqli_fetch_assoc($result);
     include('header.php');
     ?>
     <!-- hier eindigd het onderste gedeelte van de navbar / header -->
-
     <!-- hier begint het main gedeelte van de pagina -->
     <section class="home_main">
         <main>
@@ -95,23 +92,19 @@ $product = mysqli_fetch_assoc($result);
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         <?php endforeach; ?>
                     </div>
                 </div>
                 <script src="script.js"></script>
             </section>
-
         </main>
     </section>
     <!-- hier eindigd het main gedeelte van de pagina -->
     <!-- hier begint de footer -->
-
     <?php
     include('footer.php');
     ?>
-
     <!-- hier eindigd de footer -->
 </body>
 

@@ -7,17 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Webwinkel</title>
 </head>
 
 <body>
+    <!-- begin header -->
     <section class="header_nav">
-        <!-- begin header -->
         <header class="container">
             <section class="container_width">
                 <div class="nav_top">
                     <img src="img/webwinkel.png" alt="">
-
                     <a href="">De auto webwinkel</a>
                     <!-- begin box voor de rechterkant van de header -->
                     <div class="right">
@@ -33,11 +31,9 @@
                 </div>
             </section>
         </header>
-
         <?php
             include ('nav.php');
         ?>
-        
     </section>
     <!-- einde header -->
 </body>
