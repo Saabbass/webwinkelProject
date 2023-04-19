@@ -28,7 +28,7 @@
                                 <a href="">Aankoopadvies</a>
                             </li>
                             <li>
-                                <a href="">Mercedes onderdelen</a>
+                                <a href="">Onderdelen</a>
                             </li>
                             <li>
                                 <a href="">Technologie & nieuws</a>
