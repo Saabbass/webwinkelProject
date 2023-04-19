@@ -19,9 +19,6 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href=""><i class="fa fa-car"></i> Onze modellen</a>
-                            </li>
-                            <li>
                                 <a href="">Zoeken & kopen</a>
                             </li>
                             <li>
@@ -31,7 +28,7 @@
                                 <a href="">Onderdelen</a>
                             </li>
                             <li>
-                                <a href="">Technologie & nieuws</a>
+                                <a href="">Over ons</a>
                             </li>
                         </ul>
                     </nav>
