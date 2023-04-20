@@ -51,12 +51,10 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <section>
                 <div class="container">
                     <div class="container_width">
-
                         <div class="product">
                             <h2 class="product_category">Onze aanbevelingen</h2>
                             <button class="pre_btn"><i class="fa fa-chevron-left"></i></button>
                             <button class="nxt_btn"><i class="fa fa-chevron-right"></i></button>
-
                             <div class="product_container">
                                 <?php
                                 // Array keys omzetten in variabelen.
@@ -88,7 +86,6 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                                     </div>
                                 <?php endforeach; ?>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -100,7 +97,6 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 <div class="container">
                     <div class="container_width">
                         <h2 class="main_product_category">De modellen</h2>
-
                         <section class="main_product_container">
                             <div class="main_product_nav main_product_section">
                                 <h3 class="main_product_choise">Voertuigtype</h3>
@@ -188,7 +184,6 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </main>
     </section>
     <!-- einde main -->
-
     <!-- begin footer -->
     <?php
     include('footer.php');
