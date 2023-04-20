@@ -27,7 +27,6 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     include('header.php');
     ?>
     <!-- hier eindigd het onderste gedeelte van de navbar / header -->
-
     <!-- begin main -->
     <section class="home_main">
         <main>
@@ -134,6 +133,14 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                                     <span class="checkmark"></span>
                                 </label>
                                 <label class="container_checkbox">Plug-in-Hybrid
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container_checkbox">Benzine
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container_checkbox">Diesel
                                     <input type="checkbox">
                                     <span class="checkmark"></span>
                                 </label>
