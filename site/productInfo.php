@@ -1,20 +1,22 @@
 <?php
 session_start();
+// require database.php wordt gebruikt voor de database connectie
 require 'database.php';
 
+// met een get request de id ophalen van het opgevraagde product vanaf de index pagina
+// vervolgend ook door de sql query de rest van de informatie ophalen
 $carid = $_GET['id'];
-
 $sql = "SELECT * FROM producten WHERE car_id = $carid ";
-
 $result = mysqli_query($conn, $sql);
-
 $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
+// nagaan of de opgevraagde informatie gevonden is in de database 
+// als het gevonden is dan wordt de pagina met de informatie getoond
 if (!is_object($result)) {
     header("location: productInfo.php");
     exit;
 }
-
+// als de informatie niet gevonden is wordt er een bericht getoond
 if (mysqli_num_rows($result) <= 0) {
     echo "This product doens't exist!!";
     exit;
@@ -37,15 +39,14 @@ $product = mysqli_fetch_assoc($result);
 </head>
 
 <body>
-    <!-- hier begind de navbar / header -->
+    <!-- begin navbar / header -->
     <?php
     include('header.php');
     ?>
-    <!-- hier eindigd het onderste gedeelte van de navbar / header -->
-    <!-- hier begint het main gedeelte van de pagina -->
+    <!-- einde navbar / header -->
+    <!-- begin main -->
     <section class="home_main">
         <main>
-            <!-- main part 2 -->
             <section>
                 <div class="container">
                     <div class="container_width">
@@ -100,12 +101,12 @@ $product = mysqli_fetch_assoc($result);
             </section>
         </main>
     </section>
-    <!-- hier eindigd het main gedeelte van de pagina -->
-    <!-- hier begint de footer -->
+    <!-- einde main part -->
+    <!-- begin footer -->
     <?php
     include('footer.php');
     ?>
-    <!-- hier eindigd de footer -->
+    <!-- einde footer -->
 </body>
 
 </html>
