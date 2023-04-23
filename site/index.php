@@ -22,11 +22,11 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
-    <!-- hier begind de navbar / header -->
+    <!-- begin ingoegen van navbar / header -->
     <?php
     include('header.php');
     ?>
-    <!-- hier eindigd het onderste gedeelte van de navbar / header -->
+    <!-- einde invoegen van navbar / header -->
     <!-- begin main -->
     <section class="home_main">
         <main>

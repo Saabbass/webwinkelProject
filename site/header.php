@@ -31,9 +31,11 @@
                 </div>
             </section>
         </header>
+        <!-- begin invoegen van navbar -->
         <?php
             include ('nav.php');
         ?>
+        <!-- einde invoegen van navbar -->
     </section>
     <!-- einde header -->
 </body>
