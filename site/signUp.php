@@ -94,7 +94,7 @@
                             <label for="role3">Customer</label>
                         </div>
                         <div>
-                            <a href="" class="form_content_switch">Ik heb al een account</a>
+                            <a href="login.php" class="form_content_switch">Ik heb al een account</a>
                             <button class="button_submit" type="sumbit">Maak nieuwe gebruiker</button>
                         </div>
                     </form>
