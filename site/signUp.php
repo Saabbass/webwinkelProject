@@ -75,11 +75,11 @@
                         </div>
                         <div class="form_group">
                             <label for="wachtwoord">Wachtwoord</label>
-                            <input type="password" name="wachtwoord" id="wachtwoord">
+                            <input type="password" name="wachtwoord" id="wachtwoord" placeholder="wachtwoord">
                         </div>
                         <div class="form_group">
-                            <label for="check_wachtwoord">Wachtwoord_check</label>
-                            <input type="password" name="check_wachtwoord" id="check_wachtwoord">
+                            <label for="check_wachtwoord">Herhaal wachtwoord</label>
+                            <input type="password" name="check_wachtwoord" id="check_wachtwoord" placeholder="herhaal wachtwoord">
                         </div>
                         <div class="form_group_radio">
                             <input type="radio" id="role1" name="role" value="administrator">
@@ -100,9 +100,9 @@
                     </form>
                 </section>
             </div>
-            <!-- begin footer -->
         </div>
     </div>
+    <!-- begin footer -->
     <?php
     include('footer.php');
     ?>
