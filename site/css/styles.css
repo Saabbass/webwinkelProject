@@ -787,6 +787,23 @@ form{
     color: rgb(0, 60, 180);
 }
 
+.error{
+    background: rgb(243, 140, 140);
+    color: rgb(90, 18, 18);
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.success{
+    background: rgb(98, 211, 143);
+    color: rgb(0, 82, 20);
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
 /* footer.php css */
 footer{
     align-content: bottom;

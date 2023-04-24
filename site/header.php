@@ -25,7 +25,7 @@
                             <span class="fa fa-search"></span>
                         </div>
                         <a href="index.php"><i class="fa fa-home"></i></a>
-                        <a href="new_user.php"><i class="fa fa-user"></i></a>
+                        <a href="signUp.php"><i class="fa fa-user"></i></a>
                     </div>
                     <!-- einde box voor de rechterkant van de header -->
                 </div>
