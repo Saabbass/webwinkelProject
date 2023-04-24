@@ -1,4 +1,5 @@
 <?php
+session_start();
 // require database.php wordt gebruikt voor de database connectie
 require 'database.php';
 

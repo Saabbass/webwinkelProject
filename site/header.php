@@ -1,3 +1,6 @@
+<?php
+    $_SESSION['voornaam'] = $_GET
+?>
 <!DOCTYPE html>
 <html lang="nl-NL">
 
@@ -25,7 +28,17 @@
                             <span class="fa fa-search"></span>
                         </div>
                         <a href="index.php"><i class="fa fa-home"></i></a>
-                        <a href="login.php"><i class="fa fa-user"></i></a>
+                        <?php
+                        if (isset($_SESSION['email'])) {
+                            ?>
+                            <a href="session_logout.php" class="icon"><?php echo $_SESSION['email']; ?></a>
+                            <?php
+                        } else {
+                        ?>
+                            <a href="login.php"><i class="fa fa-user"></i></a>;
+                        <?php
+                        }
+                        ?>
                     </div>
                     <!-- einde box voor de rechterkant van de header -->
                 </div>

@@ -115,6 +115,10 @@ body{
     margin: 20px;
 }
 
+.icon a{
+    color: #fff;
+}
+
 /* navbar css */
 nav{
     display: flex;
