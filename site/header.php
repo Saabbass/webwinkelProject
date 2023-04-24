@@ -24,8 +24,8 @@
                             <input type="text">
                             <span class="fa fa-search"></span>
                         </div>
-                        <a href=""><i class="fa fa-home"></i></a>
-                        <a href=""><i class="fa fa-user"></i></a>
+                        <a href="index.php"><i class="fa fa-home"></i></a>
+                        <a href="new_user.php"><i class="fa fa-user"></i></a>
                     </div>
                     <!-- einde box voor de rechterkant van de header -->
                 </div>
