@@ -37,7 +37,7 @@
                             <?php if (isset($_GET['email'])) { ?>
                                 <input type="email" name="email" id="email" value="<?php echo $_GET['email']; ?>">
                             <?php } else { ?>
-                                <input type="text" name="email" placeholder="email"><br>
+                                <input type="text" name="email" id="email" placeholder="email">
                             <?php } ?>
                         </div>
                         <div class="form_group">
@@ -46,7 +46,7 @@
                             <?php if (isset($_GET['voornaam'])) { ?>
                                 <input type="text" name="voornaam" id="voornaam" value="<?php echo $_GET['voornaam']; ?>">
                             <?php } else { ?>
-                                <input type="text" name="voornaam" id="voornaam"><br>
+                                <input type="text" name="voornaam" id="voornaam" placeholder="achternaam">
                             <?php } ?>
                         </div>
                         <div class="form_group">
@@ -54,7 +54,7 @@
                             <?php if (isset($_GET['achternam'])) { ?>
                                 <input type="text" name="achternaam" id="achternaam" value="<?php echo $_GET['achternaam']; ?>">
                             <?php } else { ?>
-                                <input type="text" name="achternaam" placeholder="achternaam"><br>
+                                <input type="text" name="achternaam" id="achternaam" placeholder="achternaam">
                             <?php } ?>
                         </div>
                         <div class="form_group">
@@ -62,7 +62,7 @@
                             <?php if (isset($_GET['address'])) { ?>
                                 <input type="text" name="address" id="address" value="<?php echo $_GET['address']; ?>">
                             <?php } else { ?>
-                                <input type="text" name="address" placeholder="address"><br>
+                                <input type="text" name="address" id="address" placeholder="address">
                             <?php } ?>
                         </div>
                         <div class="form_group">
@@ -70,7 +70,7 @@
                             <?php if (isset($_GET['stad'])) { ?>
                                 <input type="text" name="stad" id="stad" value="<?php echo $_GET['stad']; ?>">
                             <?php } else { ?>
-                                <input type="text" name="stad" placeholder="stad"><br>
+                                <input type="text" name="stad" id="stad" placeholder="stad">
                             <?php } ?>
                         </div>
                         <div class="form_group">
