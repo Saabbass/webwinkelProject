@@ -694,6 +694,92 @@ nav ul a:hover{
     background-color: rgb(0, 100, 180);
 }
 
+.form_align{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+form{
+    width: 700px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.form_head{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.form_group label{
+    color:#888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.form_group input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form_group_radio label{
+    color:#888;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.form_group_radio label:hover{
+    color: rgb(0, 60, 180);
+}
+
+.form_group_radio input{
+    width: 2rem;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.button_submit{
+    float: right;
+    background-color: rgb(0, 60, 180);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button_submit:hover{
+    background-color: rgb(0, 100, 180);
+}
+
+.form_content_switch{
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color:#555;
+    transition: all 0.3s ease;
+}
+
+.form_content_switch:hover{
+    text-decoration: underline;
+    color: rgb(0, 60, 180);
+}
+
 /* footer.php css */
 footer{
     align-content: bottom;
