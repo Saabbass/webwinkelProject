@@ -32,12 +32,12 @@
                             <?php } ?>
                         </div>
                         <div class="form_group">
-                            <label>Email-address</label>
-                            <input type="text" name="email" placeholder="email-address "><br>
+                            <label for="email">Email-address</label>
+                            <input type="text" name="email" placeholder="email-address ">
                         </div>
                         <div class="form_group">
-                            <label>Password</label>
-                            <input type="password" name="wachtwoord" placeholder="password"><br>
+                            <label for="wachtwoord">Password</label>
+                            <input type="password" name="wachtwoord" placeholder="wachtwoord">
                         </div>
                         <div>
                             <a href="signUp.php" class="form_content_switch">Ik nog geen account</a>
