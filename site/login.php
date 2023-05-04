@@ -40,7 +40,7 @@
                             <input type="password" name="wachtwoord" placeholder="wachtwoord">
                         </div>
                         <div>
-                            <a href="signUp.php" class="form_content_switch">Ik nog geen account</a>
+                            <a href="signUp.php" class="form_content_switch">Ik heb nog geen account</a>
                             <button class="button_submit" type="sumbit">log in</button>
                         </div>
                     </form>
