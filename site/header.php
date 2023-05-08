@@ -1,5 +1,4 @@
 <?php
-    $_SESSION['voornaam'] = $_GET
 ?>
 <!DOCTYPE html>
 <html lang="nl-NL">
@@ -30,9 +29,17 @@
                         <a href="index.php"><i class="fa fa-home"></i></a>
                         <?php
                         if (isset($_SESSION['email'])) {
-                            ?>
-                            <a href="session_logout.php" class="icon"><?php echo $_SESSION['email']; ?></a>
-                            <?php
+                        ?>
+                            <script src="js/drop.js"></script>
+                            <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn"><?php echo $_SESSION['voornaam']; ?></button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="session_logout.php">Logout</a>
+                                </div>
+                            </div>
+                        <?php
                         } else {
                         ?>
                             <a href="login.php"><i class="fa fa-user"></i></a>;
@@ -46,7 +53,7 @@
         </header>
         <!-- begin invoegen van navbar -->
         <?php
-            include ('nav.php');
+        include('nav.php');
         ?>
         <!-- einde invoegen van navbar -->
     </section>
