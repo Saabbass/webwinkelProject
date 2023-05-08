@@ -34,8 +34,19 @@
                             <div class="dropdown">
                                 <button onclick="myFunction()" class="dropbtn"><?php echo $_SESSION['voornaam']; ?></button>
                                 <div id="myDropdown" class="dropdown-content">
-                                    <a href="#">Link 1</a>
-                                    <a href="#">Link 2</a>
+                                    <?php if (isset($_SESSION['role'])) {
+                                        $data = $_SESSION['role'];
+                                        if ($data == 'administrator') {
+                                    ?>
+                                            <a href="">Users</a>
+                                            <a href="">Drivers</a>
+
+                                        <?php } elseif ($data == 'employee') { ?>
+                                            <a href="driversite.php">Drivers</a>
+                                        <?php } else {
+                                        ?>
+                                        <?php } ?>
+                                    <?php } ?>
                                     <a href="session_logout.php">Logout</a>
                                 </div>
                             </div>
