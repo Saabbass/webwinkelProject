@@ -38,12 +38,12 @@
                                         $data = $_SESSION['role'];
                                         if ($data == 'administrator') {
                                     ?>
-                                            <a href="">Gebruikers</a>
-                                            <a href="">Producten</a>
+                                            <a href="gebruikers.php">Gebruikers</a>
+                                            <a href="producten_overzicht.php">Producten</a>
 
                                         <?php } elseif ($data == 'employee') { ?>
-                                            <a href="">Gebruikers</a>
-                                            <a href="">Producten</a>
+                                            <a href="gebruikers.php">Gebruikers</a>
+                                            <a href="producten_overzicht.php">Producten</a>
                                         <?php } else {
                                         ?>
                                         <?php } ?>
