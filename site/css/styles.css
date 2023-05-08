@@ -57,7 +57,7 @@ body{
     font-size: 20px;
 }
 .nav_top button{
-    margin-top: 5px;
+    margin-top: 15px;
     color: rgb(204, 204, 204);
     font-size: 20px;
 }
@@ -128,7 +128,7 @@ body{
 .dropbtn {
   background-color: #3498DB;
   color: white;
-  padding: 10px;
+  padding: 5px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -155,18 +155,20 @@ body{
   position: absolute;
   /* background-color: #f1f1f1; */
   background-color: rgb(189, 126, 0);
-  width: 130px;
+  width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  transform: translateX(-40%);
 }
   
 /* Links inside the dropdown */
 .dropdown-content a {
   /* color: black; */
   color: #fff;
-  padding: 12px 16px;
+  padding: 6px 8px;
   text-decoration: none;
   display: block;
+  transition: all 0.3s ease;
 }
   
 /* Change color of dropdown links on hover */

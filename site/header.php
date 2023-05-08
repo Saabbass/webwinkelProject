@@ -38,15 +38,17 @@
                                         $data = $_SESSION['role'];
                                         if ($data == 'administrator') {
                                     ?>
-                                            <a href="">Users</a>
-                                            <a href="">Drivers</a>
+                                            <a href="">Gebruikers</a>
+                                            <a href="">Producten</a>
 
                                         <?php } elseif ($data == 'employee') { ?>
-                                            <a href="driversite.php">Drivers</a>
+                                            <a href="">Gebruikers</a>
+                                            <a href="">Producten</a>
                                         <?php } else {
                                         ?>
                                         <?php } ?>
                                     <?php } ?>
+                                    <a href="">instellingen</a>
                                     <a href="session_logout.php">Logout</a>
                                 </div>
                             </div>
