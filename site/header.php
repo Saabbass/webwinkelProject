@@ -48,7 +48,7 @@
                                         ?>
                                         <?php } ?>
                                     <?php } ?>
-                                    <a href="">instellingen</a>
+                                    <a href="user_settings.php">instellingen</a>
                                     <a href="session_logout.php">Logout</a>
                                 </div>
                             </div>
