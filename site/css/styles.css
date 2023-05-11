@@ -137,10 +137,15 @@ body{
 }
   
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover{
   /* background-color: #2980B9; */
   background-color: rgb(189, 126, 0);
-  border-radius: 0;
+}
+
+.dropbtn:focus {
+  /* background-color: #2980B9; */
+  background-color: rgb(189, 126, 0);
+  border-radius: 10px 10px 0 0;
 }
   
 /* The container <div> - needed to position the dropdown content */
@@ -881,14 +886,56 @@ form{
     overflow-y: scroll;
     scroll-behavior: smooth;
     padding: 5px;
-    margin-top: 20px;
+    margin: 20px 0;
     background-color: #88888891;
     border-radius: 10px;
 }
 
 .container_scroll table{
-    border: 2px solid red;
-    width: 20px;
+    background-color: #88888885;
+    border: #ffae00 solid 3px;
+    border-radius: 10px;
+    width: 100%;
+    border-spacing: 0 1em;
+}
+
+.container_scroll table td{
+    /* border: #ffae00 5px solid;
+    border-radius: 10px; */
+    justify-content: space-between ;
+    text-align: center;
+    border-bottom: #555 solid 2px;
+    padding-bottom: 5px;
+}
+
+.container_scroll table td input{
+    padding: 2px;
+    margin: 5px;
+}
+
+.btn{
+    color: white;
+    align-content: center;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-danger{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.btn-warning{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.btn-info{
+    background-color: rgb(0, 175, 15);
+    border-radius: 10px;
 }
 
 /* footer.php css */

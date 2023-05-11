@@ -58,12 +58,12 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['email'])) {
                                             <td>
                                                 <?php if (isset($_SESSION['role'])) {
                                                     $data = $_SESSION['role'];
-                                                    if ($data == 'employee') {
+                                                    if ($data == 'administrator') {
                                                 ?>
                                                         <a href="deleteUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-danger">delete</a>
                                                         <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-warning">update</a>
 
-                                                    <?php } elseif ($data == 'driver') { ?>
+                                                    <?php } elseif ($data == 'employee') { ?>
                                                         <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-warning">update</a>
                                                     <?php } else {
                                                     ?>
