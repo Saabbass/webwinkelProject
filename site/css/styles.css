@@ -872,13 +872,23 @@ form{
 
 /* gebruikers.php */
 .container_scroll{
-    width: 9in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    min-width: 1in;
     height: 8in;
     overflow: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
     padding: 5px;
-    margin: auto;
+    margin-top: 20px;
+    background-color: #88888891;
+    border-radius: 10px;
+}
+
+.container_scroll table{
+    border: 2px solid red;
+    width: 20px;
 }
 
 /* footer.php css */

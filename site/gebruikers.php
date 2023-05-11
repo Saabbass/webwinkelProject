@@ -30,50 +30,54 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['email'])) {
         include('header.php');
         ?>
         <!-- einde invoegen van navbar / header -->
-
         <section class="home_main">
+            <section class="container_img">
+                <div class="container">
+                    <div class="container_width">
+                        <section class="container_scroll">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>id</th>
+                                        <th>email</th>
+                                        <th>voornaam</th>
+                                        <th>achternaam</th>
+                                        <th>address</th>
+                                        <th>stad</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php foreach ($users as $user) : ?>
+                                        <tr>
+                                            <td><?php echo $user['user_id'] ?></td>
+                                            <td><?php echo $user['email'] ?></td>
+                                            <td><?php echo $user['voornaam'] ?></td>
+                                            <td><?php echo $user['achternaam'] ?></td>
+                                            <td><?php echo $user['address'] ?></td>
+                                            <td><?php echo $user['stad'] ?></td>
+                                            <td>
+                                                <?php if (isset($_SESSION['role'])) {
+                                                    $data = $_SESSION['role'];
+                                                    if ($data == 'employee') {
+                                                ?>
+                                                        <a href="deleteUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-danger">delete</a>
+                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-warning">update</a>
 
-            <section class="container_scroll">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>id</th>
-                            <th>firstname</th>
-                            <th>lastname</th>
-                            <th>address</th>
-                            <th>city</th>
-                            <th>active</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php foreach ($users as $user) : ?>
-                            <tr>
-                                <td><?php echo $user['user_id'] ?></td>
-                                <td><?php echo $user['email'] ?></td>
-                                <td><?php echo $user['voornaam'] ?></td>
-                                <td><?php echo $user['achternaam'] ?></td>
-                                <td><?php echo $user['address'] ?></td>
-                                <td><?php echo $user['stad'] ?></td>
-                                <td>
-                                    <?php if (isset($_SESSION['role'])) {
-                                        $data = $_SESSION['role'];
-                                        if ($data == 'employee') {
-                                    ?>
-                                            <a href="deleteUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-danger">delete</a>
-                                            <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-warning">update</a>
+                                                    <?php } elseif ($data == 'driver') { ?>
+                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-warning">update</a>
+                                                    <?php } else {
+                                                    ?>
 
-                                        <?php } elseif ($data == 'driver') { ?>
-                                            <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-warning">update</a>
-                                        <?php } else {
-                                        ?>
-
-                                        <?php } ?>
-                                    <?php } ?>
-                                </td>
-                            </tr>
-                        <?php endforeach; ?>
-                    </tbody>
-                </table>
+                                                    <?php } ?>
+                                                <?php } ?>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+                </div>
             </section>
         </section>
         <!-- begin footer -->
