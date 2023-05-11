@@ -870,6 +870,17 @@ form{
     margin: 20px auto;
 }
 
+/* gebruikers.php */
+.container_scroll{
+    width: 9in;
+    height: 8in;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 5px;
+    margin: auto;
+}
+
 /* footer.php css */
 footer{
     align-content: bottom;
