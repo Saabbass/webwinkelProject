@@ -75,8 +75,15 @@ $userid = mysqli_fetch_assoc($result);
                                                 </h2>
                                                 <p class="user_settings_description">
                                                     <?php echo $user["email"] ?>
+                                                </p>
                                             </div>
                                             <div class="user_settings_gridright">
+                                                <p class="user_settings_description">
+                                                    <?php echo $user["address"] ?>
+                                                </p>
+                                                <p class="user_settings_description">
+                                                <?php echo $user["stad"] ?>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
