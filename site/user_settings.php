@@ -65,7 +65,7 @@ $userid = mysqli_fetch_assoc($result);
                                             <div class="singleImage_content">
                                                 <span class="singleOverlay"></span>
                                                 <div class="singleCardimage">
-                                                    
+                                                    <img src="/site/img/webwinkel.png" alt="">
                                                 </div>
                                             </div>
                                             <div class="singleCard_content">
@@ -76,7 +76,6 @@ $userid = mysqli_fetch_assoc($result);
                                                     </h2>
                                                     <p class="singleDescription_Left">
                                                         <?php echo $user["email"] ?>
-                                                    <a href="" class="btn btn-info">Vraag offerte aan</a>
                                                 </div>
                                                 <div class="grid_right">
                                                     

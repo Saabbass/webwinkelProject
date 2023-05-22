@@ -10,10 +10,7 @@ body{
     position: relative;
 }
 
-.header_nav{
-    background-color: rgb(32, 32, 32);
-}
-
+  /* #region for multiple pages */
 .container{
     width: 100%;
     display: flex;
@@ -26,7 +23,13 @@ body{
     width: 90%;
 }
 
-/* header css */
+  /* #endregion for multiple pages */
+
+/* #region for header.php */  
+.header_nav{
+    background-color: rgb(32, 32, 32);
+}
+
 .nav_top{
     display: flex;
     position: relative;
@@ -186,7 +189,9 @@ body{
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;} 
 
-/* navbar css */
+  /* #endregion for header.php */
+
+/* #region for nav.php */
 nav{
     display: flex;
     justify-content:flex-start;
@@ -217,6 +222,7 @@ nav ul li a{
 nav ul a:hover{
     color: rgb(36, 77, 243);
 }
+  /* #endregion for nav.php */
 
 /* index.php main part 1 css */
 .home_main{
