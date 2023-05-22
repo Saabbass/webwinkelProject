@@ -539,7 +539,7 @@ nav ul a:hover{
 }
 
 .main_product_nav ul a:hover{
-    color: rgb(0, 140, 175);
+    color: rgb(0, 77, 200);
 }
 
 /* index.php main part 3 product kaarten */
@@ -551,6 +551,7 @@ nav ul a:hover{
     overflow-y: scroll;
     scroll-behavior: smooth;
     border-left: 1px solid rgba(128, 128, 128, 0.541);
+    background-color: #979797;
 }
 
 .mains_product_container::-webkit-scrollbar{

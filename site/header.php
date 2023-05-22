@@ -18,7 +18,7 @@
             <section class="container_width">
                 <div class="nav_top">
                     <img src="img/webwinkel.png" alt="">
-                    <a href="">De auto webwinkel</a>
+                    <a href="index.php">De auto webwinkel</a>
                     <!-- begin box voor de rechterkant van de header -->
                     <div class="right">
                         <p>&copy;2023.SchoolProject</p>
