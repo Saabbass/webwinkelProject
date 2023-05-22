@@ -224,6 +224,17 @@ nav ul a:hover{
 }
   /* #endregion for nav.php */
 
+/* #region for footer.php css */
+footer{
+    align-content: bottom;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 60px;
+}
+/* #endregion for footer.php css */
+
 /* #region for index.php */
 /* #region for index.php main part 1 css */
 .home_main{
@@ -688,7 +699,6 @@ nav ul a:hover{
 .singleImage_content{
     position: relative;
     row-gap: 5px;
-
 }
 
 .singleOverlay{
@@ -937,13 +947,96 @@ form{
 }
 /* #endregion for gebruikers.php */
 
-/* #region for footer.php css */
-footer{
-    align-content: bottom;
-    background-color: rgb(32, 32, 32);
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    height: 60px;
+/* #region for user_settings.php */
+.user_dashboard{
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.61);
 }
-/* #endregion for footer.php css */
+
+.user_name{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.user_settings_container{
+    width: 75%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.user_settings_card{
+    background-color: rgb(207, 207, 207);
+}
+
+.user_settings_image,
+.usercardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_settings_image{
+    position: relative;
+    row-gap: 5px;
+}
+
+.user_settings_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.usercardimage{
+    position: relative;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.usercard_img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.usercardcontent{
+    display: grid;
+    grid-auto-rows: 150px;
+    grid-gap: 10px;
+}
+
+/* .user_settings_leftgrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: 1 / 1 / 2 / 2; 
+    
+} */
+
+.user_settings_name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+}
+
+.user_settings_description{
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(71, 71, 71);
+    text-align: center;
+
+}
+
+/* .user_settings_gridright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: 1 / 2 / 2 / 3; 
+} */
+/* #endregion for user_settings.php */

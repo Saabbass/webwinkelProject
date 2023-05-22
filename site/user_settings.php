@@ -54,34 +54,30 @@ $userid = mysqli_fetch_assoc($result);
                         // Array keys omzetten in variabelen.
                         foreach ($users as $user) : ?>
 
-                            <div class="singleProduct">
-                                <h2 class="singleProduct_category">
+                            <div class="user_dashboard">
+                                <h2 class="user_name">
                                     <?php echo $user["voornaam"] ?>
                                     <?php echo $user["achternaam"] ?>
                                 </h2>
-                                <div class="singleProduct_container">
-                                    <div class="singleProduct_card">
-                                        <div class="singleCard">
-                                            <div class="singleImage_content">
-                                                <span class="singleOverlay"></span>
-                                                <div class="singleCardimage">
-                                                    <img src="/site/img/webwinkel.png" alt="">
-                                                </div>
+                                <div class="user_settings_container">
+                                    <div class="user_settings_card">
+                                        <div class="user_settings_image">
+                                            <span class="user_settings_overlay"></span>
+                                            <div class="usercardimage">
+                                                <img src="/img/alexis-amz-da-cruz-GfA_3_hLUNA-unsplash.jpg" alt="error" class="usercard_img">
                                             </div>
-                                            <div class="singleCard_content">
-                                                <div class="grid_left">
-                                                    <h2 class="singleName">
-                                                        <?php echo $user["voornaam"] ?>
-                                                        <?php echo $user["achternaam"] ?>
-                                                    </h2>
-                                                    <p class="singleDescription_Left">
-                                                        <?php echo $user["email"] ?>
-                                                </div>
-                                                <div class="grid_right">
-                                                    
-                                                </div>
+                                        </div>
+                                        <div class="usercardcontent">
+                                            <div class="user_settings_leftgrid">
+                                                <h2 class="user_settings_name">
+                                                    <?php echo $user["voornaam"] ?>
+                                                    <?php echo $user["achternaam"] ?>
+                                                </h2>
+                                                <p class="user_settings_description">
+                                                    <?php echo $user["email"] ?>
                                             </div>
-                                            
+                                            <div class="user_settings_gridright">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -89,7 +85,6 @@ $userid = mysqli_fetch_assoc($result);
                         <?php endforeach; ?>
                     </div>
                 </div>
-                <script src="script.js"></script>
             </section>
         </main>
     </section>
