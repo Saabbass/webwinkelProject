@@ -913,16 +913,6 @@ form{
     margin: 5px;
 }
 
-.btn{
-    color: white;
-    align-content: center;
-    margin-right: 5px;
-    padding: 5px;
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration: none;
-}
-
 .btn-danger{
     background-color: red;
     border-radius: 10px;
@@ -930,11 +920,6 @@ form{
 
 .btn-warning{
     background-color: orange;
-    border-radius: 10px;
-}
-
-.btn-info{
-    background-color: rgb(0, 175, 15);
     border-radius: 10px;
 }
 

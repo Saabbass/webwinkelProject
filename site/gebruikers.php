@@ -1,7 +1,7 @@
 <?php
 session_start();
 require 'database.php';
-if (isset($_SESSION['user_id']) && isset($_SESSION['email'])) {
+if (isset($_SESSION['user_id']) && isset($_SESSION['email']) && (($_SESSION['role']) === 'administrator' || ($_SESSION['role']) === 'employee')) {
 
 
     $sql = "SELECT * FROM users";
@@ -90,7 +90,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['email'])) {
     </html>
 <?php
 } else {
-    header("Location: login.php");
+    header("Location: index.php");
     exit();
 }
 ?>
