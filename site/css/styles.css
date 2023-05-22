@@ -224,7 +224,8 @@ nav ul a:hover{
 }
   /* #endregion for nav.php */
 
-/* index.php main part 1 css */
+/* #region for index.php */
+/* #region for index.php main part 1 css */
 .home_main{
     min-height: 100vh;
 }
@@ -288,8 +289,9 @@ nav ul a:hover{
 .txt_box a:hover{
     background-color: rgb(0, 60, 180);
 }
+/* #endregion for index.php main part 1 */
 
-/* index.php main part 2 css */
+/* #region index.php main part 2 css */
 .product{
     position: relative;
     overflow: hidden;
@@ -420,8 +422,9 @@ nav ul a:hover{
     margin-top: 230px;
     margin-right: 20px;
 }
+/* #endregion index.php main part 2 css */
 
-/* index.php main part 3 css */
+/* #region index.php main part 3 css */
 .main_product_category {
     padding: 2vw 5vw;
     font-size: 40px;
@@ -651,8 +654,10 @@ nav ul a:hover{
 .mains_button_card:hover{
     background-color: rgb(0, 100, 180);
 }
+/* #endregion index.php main part 3 css */
+/* #endregion for index.php */
 
-/* productinfo.php css */
+/* #region for productinfo.php css */
 .singleProduct{
     position: relative;
     padding: 20px;
@@ -881,8 +886,9 @@ form{
     border-radius: 5px;
     margin: 20px auto;
 }
+/* #endregion for productinfo.php css */
 
-/* gebruikers.php */
+/* #region for gebruikers.php */
 .container_scroll{
     display: flex;
     flex-direction: column;
@@ -929,8 +935,9 @@ form{
     background-color: orange;
     border-radius: 10px;
 }
+/* #endregion for gebruikers.php */
 
-/* footer.php css */
+/* #region for footer.php css */
 footer{
     align-content: bottom;
     background-color: rgb(32, 32, 32);
@@ -939,3 +946,4 @@ footer{
     flex-wrap: wrap;
     height: 60px;
 }
+/* #endregion for footer.php css */
