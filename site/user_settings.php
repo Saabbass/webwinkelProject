@@ -53,7 +53,6 @@ $userid = mysqli_fetch_assoc($result);
                         <?php
                         // Array keys omzetten in variabelen.
                         foreach ($users as $user) : ?>
-
                             <div class="user_dashboard">
                                 <h2 class="user_name">
                                     <?php echo $user["voornaam"] ?>
