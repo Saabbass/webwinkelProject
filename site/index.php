@@ -95,7 +95,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <!-- einde main part 2 -->
             <div class="container">
                 <div class="container_width">
-                    <hr>
+                    <hr class="hr-dark">
                 </div>
             </div>
             <!-- begin main part 3 -->
@@ -150,7 +150,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                             <div class="mains_product_container main_product_section">
                                 <div class="mains_container_name">
                                     <h2 class="mains_cards_name">Limousine</h2>
-                                    <hr>
+                                    <hr class="hr-dark">
                                 </div>
                                 <?php
                                 // Array keys omzetten in variabelen.
@@ -173,7 +173,6 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                                                         <?php echo $product["type"] ?>
                                                         €<?php echo $product["prijs"] ?>
                                                     </p>
-
                                                     <p class="mains_description">
                                                         <?php echo $product["brandstof"] ?>
                                                         voorraad: <?php echo $product["voorraad"] ?>

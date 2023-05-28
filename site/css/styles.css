@@ -23,7 +23,7 @@ body{
     width: 90%;
 }
 
-hr{
+.hr-dark{
     border: 1px solid rgb(88, 88, 88);
     border-radius: 5px;
     margin: 0 auto;
