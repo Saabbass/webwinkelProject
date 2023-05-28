@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(156, 156, 156);
     position: relative;
 }
 
@@ -21,6 +21,12 @@ body{
 
 .container_width{
     width: 90%;
+}
+
+hr{
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 5px;
+    margin: 0 auto;
 }
 
   /* #endregion for multiple pages */
@@ -38,8 +44,6 @@ body{
     margin-bottom: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
-
-    border-bottom: 2px solid rgb(189, 126, 0);
 }
 
 .nav_top img{
@@ -189,6 +193,10 @@ body{
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;} 
 
+.hr-yellow{
+    border: 1px solid #ffae00;
+}
+
   /* #endregion for header.php */
 
 /* #region for nav.php */
@@ -307,8 +315,6 @@ footer{
     position: relative;
     overflow: hidden;
     padding: 20px;
-
-    border-bottom: 1px solid rgba(128, 128, 128, 0.61);
 }
 
 .product_category{
@@ -570,8 +576,9 @@ footer{
     flex-wrap: wrap;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    border-left: 1px solid rgba(128, 128, 128, 0.541);
-    background-color: #979797;
+    border-left: 1px solid rgba(34, 34, 34, 0.541);
+    background-color: #929292;
+    border-radius: 20px;
 }
 
 .mains_product_container::-webkit-scrollbar{
@@ -581,7 +588,6 @@ footer{
 .mains_container_name {
     width: 100%;
     margin: 0 1vw;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.541);
 }
 
 .mains_cards_name {
@@ -589,7 +595,7 @@ footer{
     font-weight: bold;
     font-size: 22px;
     font-weight: 500;
-    color: #333;
+    color: #272727;
 }
 
 .mains_card{
@@ -600,7 +606,7 @@ footer{
     max-height:400px;
     margin: 20px;
     background-color: rgb(207, 207, 207);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .mains_image_content,
@@ -632,7 +638,8 @@ footer{
 .mains_card_img{
     height: 100%;
     width: 100%;
-    object-fit:scale-down;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
 .mains_name{

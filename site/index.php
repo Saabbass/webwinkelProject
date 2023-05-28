@@ -93,6 +93,11 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 <script src="js/script.js"></script>
             </section>
             <!-- einde main part 2 -->
+            <div class="container">
+                <div class="container_width">
+                    <hr>
+                </div>
+            </div>
             <!-- begin main part 3 -->
             <section>
                 <div class="container">
@@ -145,6 +150,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                             <div class="mains_product_container main_product_section">
                                 <div class="mains_container_name">
                                     <h2 class="mains_cards_name">Limousine</h2>
+                                    <hr>
                                 </div>
                                 <?php
                                 // Array keys omzetten in variabelen.
@@ -154,7 +160,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                                             <div class="mains_image_content">
                                                 <span class="mains_overlay"></span>
                                                 <div class="mains_card_image">
-                                                    <img src="img/<?php echo $product["img"] ?>" alt="" class="card_img">
+                                                    <img src="img/<?php echo $product["img"] ?>" alt="" class="mains_card_img">
                                                 </div>
                                             </div>
                                             <div class="mains_card_content">

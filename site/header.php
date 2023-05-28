@@ -62,6 +62,7 @@
                     </div>
                     <!-- einde box voor de rechterkant van de header -->
                 </div>
+                <hr class="hr-yellow">
             </section>
         </header>
         <!-- begin invoegen van navbar -->
