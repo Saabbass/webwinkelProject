@@ -29,6 +29,24 @@ body{
     margin: 0 auto;
 }
 
+.btn-info{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    padding: 8px 16px;
+    margin: 14px;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: rgb(0, 60, 180);
+    border-radius: 5px;
+}
+
+.btn-info:hover{
+    background-color: rgb(0, 100, 180);
+}
+
   /* #endregion for multiple pages */
 
 /* #region for header.php */  
@@ -54,6 +72,10 @@ body{
 
 .nav_top i{
     color: rgb(204, 204, 204);
+    transition: all 0.3s ease;
+}
+.nav_top i:hover{
+    color: goldenrod;
 }
 
 .nav_top a{
@@ -390,27 +412,6 @@ footer{
     color: rgb(71, 71, 71);
     text-align: center;
 }
-
-/* .btn{
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    align-content: center;
-    padding: 8px 16px;
-    margin: 14px;
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.btn-info{
-    background-color: rgb(0, 60, 180);
-    border-radius: 5px;
-}
-
-.btn-info:hover{
-    background-color: rgb(0, 100, 180);
-} */
 
 .pre_btn,
 .nxt_btn{
@@ -773,27 +774,6 @@ footer{
     grid-area: 1 / 2 / 2 / 3; 
 }
 
-.btn{
-    font-size: 16px;
-    color: rgb(255, 255, 255);
-    align-content: center;
-    padding: 8px 16px;
-    margin: 14px;
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.btn-info{
-    background-color: rgb(0, 60, 180);
-    border-radius: 5px;
-}
-
-.btn-info:hover{
-    background-color: rgb(0, 100, 180);
-}
-
 .form_align{
     width: 100%;
     display: flex;
@@ -930,8 +910,6 @@ form{
 }
 
 .container_scroll table td{
-    /* border: #ffae00 5px solid;
-    border-radius: 10px; */
     justify-content: space-between ;
     text-align: center;
     border-bottom: #555 solid 2px;
@@ -943,7 +921,7 @@ form{
     margin: 5px;
 }
 
-.btn-update{
+.btn-delete{
     font-size: 16px;
     color: rgb(255, 255, 255);
     align-content: center;
@@ -957,7 +935,11 @@ form{
     border-radius: 10px;
 }
 
-.btn-delete{
+.btn-delete:hover{
+    background-color: rgb(209, 65, 65);
+}
+
+.btn-update{
     font-size: 16px;
     color: rgb(255, 255, 255);
     align-content: center;
@@ -969,6 +951,10 @@ form{
     transition: all 0.3s ease;
     background-color: orange;
     border-radius: 10px;
+}
+
+.btn-update:hover{
+    background-color: rgb(212, 148, 28);
 }
 /* #endregion for gebruikers.php */
 

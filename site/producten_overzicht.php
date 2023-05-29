@@ -64,7 +64,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                                                     <?php echo $product["brandstof"] ?>
                                                     voorraad: <?php echo $product["voorraad"] ?>
                                                 </p>
-                                                <a href="productInfo.php?id=<?php echo $product['car_id'] ?>" class="btn btn-info">Lees meer</a>
+                                                <a href="productInfo.php?id=<?php echo $product['car_id'] ?>" class="btn-info">Lees meer</a>
                                             </div>
                                         </div>
                                     </div>
@@ -155,7 +155,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                                                         <?php echo $product["brandstof"] ?>
                                                         voorraad: <?php echo $product["voorraad"] ?>
                                                     </p>
-                                                    <a href="productInfo.php?id=<?php echo $product['car_id'] ?>" class="btn btn-info">Lees meer</a>
+                                                    <a href="productInfo.php?id=<?php echo $product['car_id'] ?>" class="btn-info">Lees meer</a>
                                                 </div>
                                             </div>
                                         </div>

@@ -60,11 +60,11 @@ require 'database.php';
                                                     $data = $_SESSION['role'];
                                                     if ($data == 'administrator') {
                                                 ?>
-                                                        <a href="deleteUser.php?id=<?php echo $user['user_id'] ?>" class="btn-update">delete</a>
-                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn-delete">update</a>
+                                                        <a href="deleteUser.php?id=<?php echo $user['user_id'] ?>" class="btn-delete">delete</a>
+                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn-update">update</a>
 
                                                     <?php } elseif ($data == 'employee') { ?>
-                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn-delete">update</a>
+                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn-update">update</a>
                                                     <?php } else {
                                                     ?>
 
