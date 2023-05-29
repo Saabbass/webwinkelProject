@@ -1,7 +1,7 @@
 <?php
 session_start();
-require 'database.php';
 if (isset($_SESSION['user_id']) && isset($_SESSION['email']) && (($_SESSION['role']) === 'administrator' || ($_SESSION['role']) === 'employee')) {
+require 'database.php';
 
 
     $sql = "SELECT * FROM users";
@@ -60,11 +60,11 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['email']) && (($_SESSION['rol
                                                     $data = $_SESSION['role'];
                                                     if ($data == 'administrator') {
                                                 ?>
-                                                        <a href="deleteUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-danger">delete</a>
-                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-warning">update</a>
+                                                        <a href="deleteUser.php?id=<?php echo $user['user_id'] ?>" class="btn-update">delete</a>
+                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn-delete">update</a>
 
                                                     <?php } elseif ($data == 'employee') { ?>
-                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn btn-warning">update</a>
+                                                        <a href="updateUser.php?id=<?php echo $user['user_id'] ?>" class="btn-delete">update</a>
                                                     <?php } else {
                                                     ?>
 

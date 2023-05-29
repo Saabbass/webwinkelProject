@@ -391,7 +391,7 @@ footer{
     text-align: center;
 }
 
-.btn{
+/* .btn{
     font-size: 16px;
     color: rgb(255, 255, 255);
     align-content: center;
@@ -410,7 +410,7 @@ footer{
 
 .btn-info:hover{
     background-color: rgb(0, 100, 180);
-}
+} */
 
 .pre_btn,
 .nxt_btn{
@@ -943,12 +943,30 @@ form{
     margin: 5px;
 }
 
-.btn-danger{
+.btn-update{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    padding: 8px 16px;
+    margin: 14px;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
     background-color: red;
     border-radius: 10px;
 }
 
-.btn-warning{
+.btn-delete{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    padding: 8px 16px;
+    margin: 14px;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
     background-color: orange;
     border-radius: 10px;
 }

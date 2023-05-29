@@ -1,6 +1,7 @@
 <?php
 session_start();
 // require database.php wordt gebruikt voor de database connectie
+if (isset($_SESSION['user_id']) && isset($_SESSION['email']) && (($_SESSION['role']) === 'administrator' || ($_SESSION['role']) === 'employee')) {
 require 'database.php';
 
 // met een get request de id ophalen van het opgevraagde product vanaf de index pagina
@@ -103,3 +104,9 @@ $userid = mysqli_fetch_assoc($result);
 </body>
 
 </html>
+<?php
+} else {
+    header("Location: index.php");
+    exit();
+}
+?>
