@@ -22,10 +22,14 @@
                     <!-- begin box voor de rechterkant van de header -->
                     <div class="right">
                         <p>&copy;2023.SchoolProject</p>
-                        <div class="search_box">
+                        <form action="searchpage.php" method="POST" class="search_box">
+                            <input id="search" name="search" type="text" placeholder="Type here">
+                            <span class="fa fa-search"><input id="submit" type="submit" name="submit" value="Search"></span>
+                        </form>
+                        <!-- <div class="search_box">
                             <input type="text">
                             <span class="fa fa-search"></span>
-                        </div>
+                        </div> -->
                         <a href="index.php"><i class="fa fa-home"></i></a>
                         <?php
                         if (isset($_SESSION['email'])) {
