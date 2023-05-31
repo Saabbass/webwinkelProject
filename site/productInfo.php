@@ -45,7 +45,7 @@ $product = mysqli_fetch_assoc($result);
     ?>
     <!-- einde navbar / header -->
     <!-- begin main -->
-    <section class="home_main">
+    <section class="min_page_heigt">
         <main>
             <section>
                 <div class="container">

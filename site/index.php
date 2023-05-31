@@ -29,7 +29,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     ?>
     <!-- einde invoegen van navbar / header -->
     <!-- begin main -->
-    <section class="home_main">
+    <section class="min_page_heigt">
         <main>
             <!-- begin main part 1 -->
             <section class="container_img">

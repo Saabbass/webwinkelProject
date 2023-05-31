@@ -23,6 +23,10 @@ body{
     width: 90%;
 }
 
+.min_page_heigt{
+    min-height: 100vh;
+}
+
 .hr-dark{
     border: 1px solid rgb(88, 88, 88);
     border-radius: 5px;
@@ -267,9 +271,6 @@ footer{
 
 /* #region for index.php */
 /* #region for index.php main part 1 css */
-.home_main{
-    min-height: 100vh;
-}
 
 .container_img{
     background-image: url("../img/julian-hochgesang-3-y9vq8uoxk-unsplash.jpg");
@@ -962,7 +963,6 @@ form{
 .user_dashboard{
     position: relative;
     padding: 20px;
-    border-bottom: 1px solid rgba(50, 50, 50, 0.61);
 }
 
 .user_name{
@@ -1018,7 +1018,7 @@ form{
 
 .usercardcontent{
     display: grid;
-    grid-auto-rows: 150px;
+    grid-auto-rows: 100px;
     grid-gap: 10px;
 }
 
@@ -1027,7 +1027,7 @@ form{
     flex-direction: column;
     align-items: center;
     grid-area: 1 / 1 / 2 / 2; 
-    
+    border-right: 1px solid #272727;    
 }
 
 .user_settings_name{
