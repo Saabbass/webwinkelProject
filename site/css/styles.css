@@ -89,11 +89,12 @@ body{
     color: rgb(204, 204, 204);
     font-size: 20px;
 }
-.nav_top button{
+
+/* .nav_top button{
     margin-top: 15px;
     color: rgb(204, 204, 204);
     font-size: 20px;
-}
+} */
 
 .nav_top .right{
     flex-grow: 8;
@@ -115,30 +116,39 @@ body{
 
 .search_box{
     background-color: rgb(78, 78, 78);
-    padding: 4px;
+    padding: 5px;
     display: flex;
-    margin: auto 0;
     height: 35px;
     align-self: center;
     text-align: center;
-    max-width: 100%;
+    max-width: 30%;
+    border-radius: 0;
 }
 
-.search_box input{
-    display: flex;
-    flex-wrap: wrap;
+.search_box input[type="text"]{
+    justify-self: flex-start;
     border: none;
     outline: none;
     background-color: rgb(78, 78, 78);
     color: rgb(204, 204, 204);
     height: 100%;
-    padding: 0 10px;
     font-size: 20px;
     max-width: 100%;
+    cursor: pointer;
 }
 
-.search_box span{
+.searchButton{
+    justify-self: flex-end;
+    border: none;
+    outline: none;
+    background-color: rgb(78, 78, 78);
     color: rgb(204, 204, 204);
+    height: 100%;
+    font-size: 20px;
+    max-width: 10%;
+    cursor: pointer;
+
+    /* color: rgb(204, 204, 204);
     background-color: rgb(78, 78, 78);
     font-size: 16px;
     height: 100%;
@@ -146,7 +156,7 @@ body{
     position: relative;
     cursor: pointer;
     z-index: 1;
-    border-left: 1px solid rgb(105, 105, 105);
+    border-left: 1px solid rgb(105, 105, 105); */
 }
 
 .right a{
