@@ -12,6 +12,13 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 ?>
 
+<!DOCTYPE html>
+<html lang="nl-NL">
+
+<head>
+    <title>searchpage</title>
+</head>
+
 <body>
     <!-- begin ingoegen van navbar / header -->
     <?php
