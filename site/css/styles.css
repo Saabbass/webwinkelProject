@@ -176,6 +176,7 @@ body{
   border: none;
   cursor: pointer;
   border-radius: 10px;
+  align-self: center;
   transition: all 0.3s ease;
 }
   
@@ -195,6 +196,7 @@ body{
 .dropdown {
   position: relative;
   display: inline-block;
+  align-self: center;
 }
   
 /* Dropdown Content (Hidden by Default) */
