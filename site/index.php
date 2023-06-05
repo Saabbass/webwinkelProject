@@ -15,6 +15,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 <head>
     <title>Webwinkel</title>
+    <link rel="icon" type="image/x icon" href="img/webwinkel.png">
 </head>
 
 <body>
