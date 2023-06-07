@@ -126,20 +126,20 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                                     </li>
                                 </ul>
                                 <h3 class="main_product_choise">brandstof type</h3>
-                                <label class="container_checkbox">Elektrisch
-                                    <input type="checkbox">
+                                <label class="container_checkbox" name="checkbox1" id="checkbox1">Elektrisch
+                                    <input type="checkbox" name="checkbox1" id="checkbox1">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label class="container_checkbox">Plug-in-Hybrid
-                                    <input type="checkbox">
+                                <label class="container_checkbox" name="checkbox2" id="checkbox2">Plug-in-Hybrid
+                                    <input type="checkbox" name="checkbox2" id="checkbox2">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label class="container_checkbox">Benzine
-                                    <input type="checkbox">
+                                <label class="container_checkbox" name="checkbox3" id="checkbox3">Benzine
+                                    <input type="checkbox" name="checkbox3" id="checkbox3">
                                     <span class="checkmark"></span>
                                 </label>
-                                <label class="container_checkbox">Diesel
-                                    <input type="checkbox">
+                                <label class="container_checkbox" name="checkbox4" id="checkbox4">Diesel
+                                    <input type="checkbox" name="checkbox4" id="checkbox4">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>

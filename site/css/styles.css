@@ -96,14 +96,24 @@ body{
     font-size: 20px;
 } */
 
-.nav_top .right{
-    flex-grow: 8;
+.nav_top{
     height: 100%;
+    display: flex;
+}
+.left{
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+.right{
+    max-width: 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-self: center;
 }
+
 
 .right p{
     color: rgb(204, 204, 204);
@@ -123,6 +133,7 @@ body{
     text-align: center;
     max-width: 30%;
     border-radius: 0;
+    padding-right: 25px;
 }
 
 .search_box input[type="text"]{
@@ -147,16 +158,7 @@ body{
     font-size: 20px;
     max-width: 10%;
     cursor: pointer;
-
-    /* color: rgb(204, 204, 204);
-    background-color: rgb(78, 78, 78);
-    font-size: 16px;
-    height: 100%;
-    padding: 4px;
-    position: relative;
-    cursor: pointer;
-    z-index: 1;
-    border-left: 1px solid rgb(105, 105, 105); */
+    border-left: 1px solid rgb(105, 105, 105);
 }
 
 .right a{
@@ -1044,6 +1046,7 @@ form{
     display: grid;
     grid-auto-rows: 100px;
     grid-gap: 10px;
+    min-height: 40vh;
 }
 
 .user_settings_leftgrid{

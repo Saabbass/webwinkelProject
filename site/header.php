@@ -17,9 +17,12 @@
         <header class="container">
             <section class="container_width">
                 <div class="nav_top">
-                    <img src="img/webwinkel.png" alt="">
-                    <a href="index.php">De auto webwinkel</a>
-                    <!-- begin box voor de rechterkant van de header -->
+                    <div class="left">
+                        <img src="img/webwinkel.png" alt="">
+                        <a href="index.php">De auto webwinkel</a>
+                        <!-- begin box voor de rechterkant van de header -->
+                        <!-- einde box voor de rechterkant van de header -->
+                    </div>
                     <div class="right">
                         <p>&copy;2023.SchoolProject</p>
                         <form action="searchpage.php" method="POST" class="search_box">
@@ -59,12 +62,11 @@
                         <?php
                         } else {
                         ?>
-                            <a href="login.php"><i class="fa fa-user"></i></a>;
+                            <a href="login.php"><i class="fa fa-user"></i></a>
                         <?php
                         }
                         ?>
                     </div>
-                    <!-- einde box voor de rechterkant van de header -->
                 </div>
                 <hr class="hr-yellow">
             </section>

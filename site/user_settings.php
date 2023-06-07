@@ -63,14 +63,22 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['email']) && (($_SESSION['rol
                                     <div class="usercardcontent">
                                         <div class="user_settings_leftgrid">
                                             <h2 class="user_settings_name">
-                                                <?php echo $user["voornaam"] ?>
-                                                <?php echo $user["achternaam"] ?>
+                                                Voornaam:
+                                            </h2>
+                                            <h2 class="user_settings_name">
+                                                Achternaam:
                                             </h2>
                                             <p class="user_settings_description">
                                                 <?php echo $user["email"] ?>
                                             </p>
                                         </div>
                                         <div class="user_settings_gridright">
+                                            <p class="user_settings_description">
+                                                <?php echo $user["voornaam"] ?>
+                                            </p>
+                                            <p class="user_settings_description">
+                                                <?php echo $user["achternaam"] ?>
+                                            </p>
                                             <p class="user_settings_description">
                                                 <?php echo $user["address"] ?>
                                             </p>
@@ -87,7 +95,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['email']) && (($_SESSION['rol
             </div>
         </section>
         <!-- einde main part -->
-        
+
         <!-- begin footer -->
         <?php
         include('footer.php');
