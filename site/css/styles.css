@@ -800,7 +800,8 @@ footer{
     align-items: center;
     grid-area: 1 / 2 / 2 / 3; 
 }
-
+/* #endregion for productinfo.php css */
+/* #region for login and signup css */
 .form_align{
     width: 100%;
     display: flex;
@@ -910,7 +911,7 @@ form{
     border-radius: 5px;
     margin: 20px auto;
 }
-/* #endregion for productinfo.php css */
+/* #endregion for login and signup css */
 
 /* #region for gebruikers.php */
 .container_scroll{
