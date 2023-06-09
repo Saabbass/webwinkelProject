@@ -100,6 +100,7 @@ body{
     height: 100%;
     display: flex;
 }
+
 .left{
     max-width: 50%;
     display: flex;
@@ -113,7 +114,6 @@ body{
     justify-content: flex-end;
     align-self: center;
 }
-
 
 .right p{
     color: rgb(204, 204, 204);
