@@ -26,7 +26,7 @@
                     <div class="right">
                         <p>&copy;2023.SchoolProject</p>
                         <form action="searchpage.php" method="POST" class="search_box">
-                            <input id="search" name="search" type="text" placeholder="Type here">
+                            <input id="search" name="search" type="search" placeholder="Type here">
                             <button class="searchButton" id="submit" type="submit" name="submit"><i class="fa fa-search"></i></button>
                         </form>
                         <!-- <div class="search_box">
