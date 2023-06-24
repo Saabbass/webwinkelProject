@@ -89,6 +89,7 @@ $producten = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 <script src="js/script.js"></script>
             </section>
             <!-- einde main part 2 -->
+            <!-- tussen lijn -->
             <div class="container">
                 <div class="container_width">
                     <hr class="hr-dark">
